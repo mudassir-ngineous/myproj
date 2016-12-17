@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Launch",
+            "type": "node",
+            "request": "launch",
+            "program": "D:/projects/myproj/TeamMngmtProj/server.js",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            // "env": {
+            //     "NODE_ENV": "development",
+            //     "NODE_ENVIRONMENT":"local"
+            // },
+            "console": "internalConsole",
+            "sourceMaps": false,
+            "outFiles": []
+        },
+        {
+            "name": "Attach",
+            "type": "node",
+            "request": "attach",
+            "port": 5858,
+            "address": "localhost",
+            "restart": false,
+            "sourceMaps": false,
+            "outDir": null,
+            "localRoot": "${workspaceRoot}",
+            "remoteRoot": null
+        }
+        // {
+        //     "type": "node",
+        //     "request": "attach",
+        //     "name": "Attach to Process",
+        //     "port": 5858
+        // }
+    ]
+}
